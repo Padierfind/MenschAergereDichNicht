@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Text?>
+
+<FlowPane alignment="BASELINE_LEFT" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minWidth="170.0" orientation="VERTICAL" prefWidth="170.0" styleClass="sidebar" stylesheets="@MenschAergerDichNichtStyle.css" vgap="10.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdm.se2.madn.oberflaeche.gui.GUINavigationDrawerController">
+   <children>
+      <FlowPane alignment="CENTER" orientation="VERTICAL" prefHeight="35.0" prefWidth="170.0" styleClass="head">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Main Menu" textAlignment="CENTER" wrappingWidth="170.0">
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+            </Text>
+         </children>
+      </FlowPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subheading" text="Please choose one:" textAlignment="CENTER" wrappingWidth="170.0" />
+      <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" maxWidth="1.7976931348623157E308" onAction="#onButtonFireStarteNeuesSpiel" prefHeight="50.0" text="New Game">
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="PLAY" size="20" />
+         </graphic>
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </JFXButton>
+      <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" maxWidth="1.7976931348623157E308" onAction="#onButtonFireLaden" prefHeight="50.0" text="Load">
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="FOLDER" size="20" />
+         </graphic>
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </JFXButton>
+      <JFXButton fx:id="saveButton" alignment="BASELINE_LEFT" buttonType="RAISED" disable="true" maxWidth="1.7976931348623157E308" onAction="#onButtonFireSicher" prefHeight="50.0" text="Save">
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="UPLOAD" size="20" />
+         </graphic>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+      </JFXButton>
+      <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" maxWidth="1.7976931348623157E308" onAction="#onButtonFireRegeln" prefHeight="50.0" text="Rules">
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="GAMEPAD" size="20" />
+         </graphic>
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </JFXButton>
+      <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" maxWidth="1.7976931348623157E308" onAction="#onButtonFireBeenden" prefHeight="50.0" text="Exit">
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="EXIT_TO_APP" size="20" />
+         </graphic>
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </JFXButton>
+   </children>
+</FlowPane>

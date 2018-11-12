@@ -1,0 +1,107 @@
+.background {
+    -fx-background-color: #F4F4F4;
+}
+
+.background-board{
+    -fx-background-color: white;
+}
+
+.head{
+    -fx-background-color: #455A64;
+    -fx-font: 18px "Lato";
+    -fx-font-weight: bold;
+}
+
+.sidebar{
+    -fx-background-color: #607D8B;
+}
+
+.jfx-hamburger {
+    -fx-spacing: 5;
+    -fx-cursor: hand;
+}
+
+.jfx-hamburger StackPane {
+    -fx-pref-width: 25px;
+    -fx-pref-height: 3px;
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+}
+
+.jfx-decorator{
+    -fx-decorator-color:  #455A64;
+}
+
+.jfx-decorator .jfx-decorator-buttons-container {
+    -fx-background-color: -fx-decorator-color;
+}
+
+.jfx-decorator .resize-border {
+    -fx-border-color: -fx-decorator-color;
+    -fx-border-width: 0 4 4 4;
+}
+
+.jfx-slider .thumb{
+   -fx-background-color:#455A64;
+}
+
+.jfx-slider-style {
+    -jfx-indicator-position: left;
+}
+
+.jfx-slider-style .track {
+    -fx-background-color: #F4F4F4;
+    -fx-pref-height: 4px;
+    -fx-pref-width: 4px;
+}
+
+.subheading{
+    -fx-font: 13px "Lato";
+    -fx-fill: #FFFFFF;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+.heading{
+    -fx-font: 16px "Lato";
+    -fx-fill: #FFFFFF;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-font-weight: bold;
+
+}
+
+.error{
+    -fx-font: 13px "Lato";
+    -fx-fill: red;
+}
+
+.turn{
+    -fx-font: 14px "Lato";
+    -fx-fill: #455A64;
+
+}
+
+.button{
+    -fx-font: 13px "Lato";
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 0;
+    -fx-background-color: #455A64;
+}
+
+.button-empty{
+    -fx-background-color: #F4F4F4;
+}
+
+.button-disabled{
+        -fx-background-color: #d0d0d0;
+}
+
+.button-unfilled{
+fx-background-color: #212121;
+
+}

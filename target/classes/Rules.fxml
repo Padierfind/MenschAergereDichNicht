@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Text?>
+
+<FlowPane alignment="BASELINE_LEFT" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minWidth="170.0" orientation="VERTICAL" prefWidth="170.0" styleClass="sidebar" stylesheets="@MenschAergerDichNichtStyle.css" vgap="10.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FlowPane alignment="CENTER_LEFT" columnHalignment="CENTER" hgap="10.0" prefHeight="35.0" prefWidth="170.0" styleClass="head">
+         <children>
+            <MaterialDesignIconView fill="WHITE" glyphName="DICE" size="20" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="heading" text="Rules" wrappingWidth="41.20001220703125">
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+            </Text>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="36.0" />
+         </padding>
+      </FlowPane>
+      <Text layoutX="10.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subheading" text="- Mind. 1 und Max. 4 menschliche Spieler" wrappingWidth="147.9814453125">
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+      </Text>
+      <Text layoutX="20.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subheading" text="- Wenn Schlagen einer gegnerischen Figur möglich, dann muss dies erfolgen" wrappingWidth="147.9814453125">
+         <FlowPane.margin>
+            <Insets left="10.0" />
+         </FlowPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subheading" text="- Bei gewürfelter '6' muss Figur aus Startfeldern raus" wrappingWidth="147.9814453125">
+         <FlowPane.margin>
+            <Insets left="10.0" />
+         </FlowPane.margin>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subheading" text="- Betreten der Endfelder nur mit richtigem Wurf möglich" wrappingWidth="147.9814453125">
+         <FlowPane.margin>
+            <Insets left="10.0" />
+         </FlowPane.margin>
+      </Text>
+   </children>
+</FlowPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Text?>
+
+<FlowPane alignment="BOTTOM_CENTER" minWidth="110.0" orientation="VERTICAL" prefWidth="110.0" stylesheets="@MenschAergerDichNichtStyle.css" vgap="10.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdm.se2.madn.oberflaeche.gui.GUIGameInterfaceController">
+   <children>
+      <Text fill="#0080ff" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="turn" text="It's your turn!" textAlignment="CENTER" wrappingWidth="110.0">
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </Text>
+      <MaterialDesignIconView fx:id="matIcon" fill="#455a64" glyphName="HUMAN" size="60">
+         <FlowPane.margin>
+            <Insets left="25.0" />
+         </FlowPane.margin>
+      </MaterialDesignIconView>
+      <FlowPane fx:id="wuerfelPane" alignment="CENTER" hgap="4.0" prefHeight="20.0" prefWidth="110.0" rowValignment="TOP" visible="false">
+         <children>
+            <MaterialDesignIconView fill="#455a64" glyphName="DICE" size="20" />
+            <Text fx:id="gewuerfelterWert" fill="#0080ff" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="turn" text="132" textAlignment="CENTER" wrappingWidth="23.60003662109375" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </FlowPane>
+      <JFXButton buttonType="RAISED" onAction="#onButtonFireSpielzugUeberspringen" prefHeight="50.0" prefWidth="110.0" text="Überspringen" textFill="WHITE" />
+      <JFXButton fx:id="wuerfelnButton" buttonType="RAISED" layoutX="10.0" layoutY="360.0" onAction="#onButtonFireWuerfeln" prefHeight="50.0" prefWidth="110.0" text="Würfeln" textFill="WHITE" />
+   </children>
+</FlowPane>
